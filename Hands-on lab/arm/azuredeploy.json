@@ -107,7 +107,7 @@
         "kubernetesAgentOsType": "Linux",
         "kubernetesAgentOsDiskSizeGB": 0,
         "kubernetesAgentCount": 2,
-        "kubernetesAgentVmSize": "Standard_D2_v2",
+        "kubernetesAgentVmSize": "Standard_B1s",
         "kubernetesNetworkProfilePlugin": "kubenet",
         "kubernetesRBACEnabled": true,
         "logAnalyticsName": "[concat('fabmed-', parameters('Suffix'),uniqueString(resourceGroup().id))]",
