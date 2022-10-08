@@ -96,7 +96,7 @@
         "diagnosticsStorageAccountTypeLinux": "Standard_LRS",
         "diagnosticsStorageAccountKindLinux": "Storage",
         "virtualMachineNameLinux": "[concat('fabmedical-', parameters('Suffix'))]",
-        "virtualMachineSizeLinux": "Standard_B1s",
+        "virtualMachineSizeLinux": "Standard_B2s",
         "virtualMachineOsDiskTypeLinux": "StandardSSD_LRS",
         "registryName": "[concat('fabmedical', parameters('Suffix'))]",
         "registrySku": "Standard",
